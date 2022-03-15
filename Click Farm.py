@@ -12,7 +12,7 @@ vid_index = 0
 tab_index = 0
 count = 1
 
-brow = w.Chrome('C:\\path\\chromedriver.exe') # Tương tự cho bé này luôn, nhỡ không tương thích thì lên search bản nào phù hợp với phiên bản Chrome của mình nha, của mình là 99.
+brow = w.Chrome('C:\\path\\chromedriver.exe') # Tương tự cho bé này luôn, nhỡ không tương thích thì search bản nào phù hợp với phiên bản Chrome nha, của mình ver 99.
 brow.get(list[vid_index])
 
 sleep(1)
