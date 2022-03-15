@@ -30,4 +30,4 @@ while 1:
         sleep(2)
         brow.get(list[vid_index])
 
-    sleep(30)  # 30s một view  ¯\_(ツ)_/¯  chắc vậy  
+    sleep(30)  # 30s một view  ¯\_(ツ)_/¯  chắc vậy.
