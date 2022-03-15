@@ -6,7 +6,6 @@ list = videos.readlines()
 
 NUM_OF_TAB = 4
 NUM_OF_VID = len(list)
-LOOP = 30    # 30s một view  ¯\_(ツ)_/¯  chắc vậy  
 
 vid_index = 0
 tab_index = 0
@@ -31,6 +30,4 @@ while 1:
         sleep(2)
         brow.get(list[vid_index])
 
-    sleep(LOOP)
-
-
+    sleep(30)  # 30s một view  ¯\_(ツ)_/¯  chắc vậy  
